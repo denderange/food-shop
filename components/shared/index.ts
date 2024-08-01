@@ -9,3 +9,5 @@ export { FilterCheckbox } from "./FilterCheckbox";
 export { RangeSlider } from "./RangeSlider";
 export { CheckboxFiltersGroup } from "./CheckboxFiltersGroup";
 export { ProductCard } from "./ProductCard";
+export { ProductsGroupList } from "./ProductsGroupList";
+export { SearchInput } from "./SearchInput";

@@ -4,7 +4,7 @@ import React from "react";
 type TitleSize = "xs" | "sm" | "md" | "lg" | "xl" | "2xl";
 
 type Props = {
-	size?: TitleSize;
+	size: TitleSize;
 	className?: string;
 	text: string;
 };

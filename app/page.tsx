@@ -1,7 +1,7 @@
 import {
 	Container,
 	Filters,
-	ProductCard,
+	ProductsGroupList,
 	Title,
 	TopBar,
 } from "@/components/shared";
@@ -29,11 +29,177 @@ export default function Home() {
 					{/* Products list section (right) */}
 					<div className='flex-1'>
 						<div className='flex flex-col gap-16'>
-							<ProductCard
-								id={1}
-								name='Холодец'
-								price={35}
-								imageUrl='https://cdn.pixabay.com/photo/2014/11/05/15/57/salmon-518032_640.jpg'
+							<ProductsGroupList
+								title='Закуски'
+								products={[
+									{
+										id: 1,
+										name: "Пицца Рита",
+										imageUrl:
+											"https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601_640.jpg",
+										price: 350,
+										items: [{ price: 350 }],
+									},
+									{
+										id: 1,
+										name: "Пицца Рита",
+										imageUrl:
+											"https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601_640.jpg",
+										price: 350,
+										items: [{ price: 350 }],
+									},
+									{
+										id: 1,
+										name: "Пицца Рита",
+										imageUrl:
+											"https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601_640.jpg",
+										price: 350,
+										items: [{ price: 350 }],
+									},
+									{
+										id: 1,
+										name: "Пицца Рита",
+										imageUrl:
+											"https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601_640.jpg",
+										price: 350,
+										items: [{ price: 350 }],
+									},
+									{
+										id: 1,
+										name: "Пицца Рита",
+										imageUrl:
+											"https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601_640.jpg",
+										price: 350,
+										items: [{ price: 350 }],
+									},
+									{
+										id: 1,
+										name: "Пицца Рита",
+										imageUrl:
+											"https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601_640.jpg",
+										price: 350,
+										items: [{ price: 350 }],
+									},
+									{
+										id: 1,
+										name: "Пицца Рита",
+										imageUrl:
+											"https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601_640.jpg",
+										price: 350,
+										items: [{ price: 350 }],
+									},
+									{
+										id: 1,
+										name: "Пицца Рита",
+										imageUrl:
+											"https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601_640.jpg",
+										price: 350,
+										items: [{ price: 350 }],
+									},
+									{
+										id: 1,
+										name: "Пицца Рита",
+										imageUrl:
+											"https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601_640.jpg",
+										price: 350,
+										items: [{ price: 350 }],
+									},
+									{
+										id: 1,
+										name: "Пицца Рита",
+										imageUrl:
+											"https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601_640.jpg",
+										price: 350,
+										items: [{ price: 350 }],
+									},
+								]}
+								categoryId={1}
+							/>
+							<ProductsGroupList
+								title='Кофе'
+								products={[
+									{
+										id: 1,
+										name: "Пицца Рита",
+										imageUrl:
+											"https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601_640.jpg",
+										price: 350,
+										items: [{ price: 350 }],
+									},
+									{
+										id: 1,
+										name: "Пицца Рита",
+										imageUrl:
+											"https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601_640.jpg",
+										price: 350,
+										items: [{ price: 350 }],
+									},
+									{
+										id: 1,
+										name: "Пицца Рита",
+										imageUrl:
+											"https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601_640.jpg",
+										price: 350,
+										items: [{ price: 350 }],
+									},
+									{
+										id: 1,
+										name: "Пицца Рита",
+										imageUrl:
+											"https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601_640.jpg",
+										price: 350,
+										items: [{ price: 350 }],
+									},
+									{
+										id: 1,
+										name: "Пицца Рита",
+										imageUrl:
+											"https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601_640.jpg",
+										price: 350,
+										items: [{ price: 350 }],
+									},
+									{
+										id: 1,
+										name: "Пицца Рита",
+										imageUrl:
+											"https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601_640.jpg",
+										price: 350,
+										items: [{ price: 350 }],
+									},
+									{
+										id: 1,
+										name: "Пицца Рита",
+										imageUrl:
+											"https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601_640.jpg",
+										price: 350,
+										items: [{ price: 350 }],
+									},
+									{
+										id: 1,
+										name: "Пицца Рита",
+										imageUrl:
+											"https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601_640.jpg",
+										price: 350,
+										items: [{ price: 350 }],
+									},
+									{
+										id: 1,
+										name: "Пицца Рита",
+										imageUrl:
+											"https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601_640.jpg",
+										price: 350,
+										items: [{ price: 350 }],
+									},
+									{
+										id: 1,
+										name: "Пицца Рита",
+										imageUrl:
+											"https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601_640.jpg",
+										price: 350,
+										items: [{ price: 350 }],
+									},
+								]}
+								categoryId={2}
 							/>
 						</div>
 					</div>

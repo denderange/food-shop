@@ -7,6 +7,11 @@ const nextConfig = {
 				hostname: "cdn.pixabay.com",
 				port: "",
 			},
+			{
+				protocol: "https",
+				hostname: "media.dodostatic.net",
+				port: "",
+			},
 		],
 	},
 };

@@ -11,3 +11,7 @@ export { CheckboxFiltersGroup } from "./CheckboxFiltersGroup";
 export { ProductCard } from "./ProductCard";
 export { ProductsGroupList } from "./ProductsGroupList";
 export { SearchInput } from "./SearchInput";
+export { PizzaImage } from "./PizzaImage";
+export { ProductVariants } from "./ProductVariants";
+export { ModalChoseProduct } from "./modals/ModalChoseProduct";
+export { FormChooseProduct } from "./FormChooseProduct";

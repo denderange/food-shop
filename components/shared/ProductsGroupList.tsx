@@ -51,7 +51,8 @@ export const ProductsGroupList = ({
 						id={product.id}
 						name={product.name}
 						imageUrl={product.imageUrl}
-						price={product.items[0].price}
+						price={999}
+						// price={product.productItems[0].id}
 					/>
 				))}
 			</div>

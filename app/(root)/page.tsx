@@ -4,7 +4,7 @@ import {
 	ProductsGroupList,
 	Title,
 	TopBar,
-} from "@/components/shared";
+} from "@/shared/components/shared";
 import { prisma } from "@/prisma/prisma-client";
 
 export default async function Home() {
@@ -68,7 +68,7 @@ export default async function Home() {
 										items: [{ price: 350 }],
 									},
 									{
-										id: 1,
+										id: 2,
 										name: "Пицца Рита",
 										imageUrl:
 											"https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601_640.jpg",
@@ -76,7 +76,7 @@ export default async function Home() {
 										items: [{ price: 350 }],
 									},
 									{
-										id: 1,
+										id: 3,
 										name: "Пицца Рита",
 										imageUrl:
 											"https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601_640.jpg",
@@ -84,7 +84,7 @@ export default async function Home() {
 										items: [{ price: 350 }],
 									},
 									{
-										id: 1,
+										id: 4,
 										name: "Пицца Рита",
 										imageUrl:
 											"https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601_640.jpg",
@@ -92,7 +92,7 @@ export default async function Home() {
 										items: [{ price: 350 }],
 									},
 									{
-										id: 1,
+										id: 5,
 										name: "Пицца Рита",
 										imageUrl:
 											"https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601_640.jpg",
@@ -100,7 +100,7 @@ export default async function Home() {
 										items: [{ price: 350 }],
 									},
 									{
-										id: 1,
+										id: 6,
 										name: "Пицца Рита",
 										imageUrl:
 											"https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601_640.jpg",
@@ -108,7 +108,7 @@ export default async function Home() {
 										items: [{ price: 350 }],
 									},
 									{
-										id: 1,
+										id: 7,
 										name: "Пицца Рита",
 										imageUrl:
 											"https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601_640.jpg",
@@ -116,7 +116,7 @@ export default async function Home() {
 										items: [{ price: 350 }],
 									},
 									{
-										id: 1,
+										id: 8,
 										name: "Пицца Рита",
 										imageUrl:
 											"https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601_640.jpg",
@@ -124,7 +124,7 @@ export default async function Home() {
 										items: [{ price: 350 }],
 									},
 									{
-										id: 1,
+										id: 9,
 										name: "Пицца Рита",
 										imageUrl:
 											"https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601_640.jpg",
@@ -132,7 +132,7 @@ export default async function Home() {
 										items: [{ price: 350 }],
 									},
 									{
-										id: 1,
+										id: 10,
 										name: "Пицца Рита",
 										imageUrl:
 											"https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601_640.jpg",

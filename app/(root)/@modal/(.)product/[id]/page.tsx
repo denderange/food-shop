@@ -1,4 +1,4 @@
-import { ModalChoseProduct } from "@/components/shared";
+import { ModalChoseProduct } from "@/shared/components/shared";
 import { prisma } from "@/prisma/prisma-client";
 import { notFound } from "next/navigation";
 
